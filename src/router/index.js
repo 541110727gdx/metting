@@ -5,6 +5,7 @@ import entrance from '@/components/entrance'//暂时入口
 import index from "@/view/index";
 import addMetting from "@/view/addMetting";
 import mettingDetail from "@/view/mettingDetail";
+import ccc from "@/view/ccc"
 Vue.use(Router)
 // const datePageRouter = {
 //   path: 'datePage',
@@ -35,6 +36,12 @@ export default new Router({
               path:'addMetting',
               name:'新建会议',
               component:addMetting,
+              props:true
+            },
+            {
+              path:'ccc',
+              name:'ccc',
+              component:ccc,
               props:true
             },
             {
