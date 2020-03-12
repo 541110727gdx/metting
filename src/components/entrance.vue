@@ -40,7 +40,7 @@ export default {
   height: 100%;
 }
 .content-box {
-  height: 87%;
+  height: 86%;
   position: fixed;
   top: 14%;
   z-index: 2;
