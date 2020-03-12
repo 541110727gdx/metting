@@ -5,6 +5,7 @@ import entrance from '@/components/entrance'//暂时入口
 import index from "@/view/index";
 import addMetting from "@/view/addMetting";
 import mettingDetail from "@/view/mettingDetail";
+import test from "@/view/test";
 Vue.use(Router)
 // const datePageRouter = {
 //   path: 'datePage',
@@ -41,6 +42,12 @@ export default new Router({
               path:'mettingDetail',
               name:'会议详情',
               component:mettingDetail,
+              prop:true
+            },
+            {
+              path:'test',
+              name:'测试',
+              component:test,
               prop:true
             }
           ]
