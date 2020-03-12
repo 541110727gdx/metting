@@ -126,6 +126,7 @@ export default {
 <style lang="scss" scoped>
 .box {
   padding-bottom: 5rem;
+  text-align: center;
   .add-btn {
     height: 5rem;
     background: #fff;
